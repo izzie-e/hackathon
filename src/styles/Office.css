@@ -1,0 +1,191 @@
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.gameContainer {
+    margin: 20px;
+    background-image: url("../images/wood.png");
+    width: 1100px;
+    height: 600px;
+    position: absolute;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.chair {
+    left: 220px;
+    top: 30px;
+    position: absolute;
+}
+
+.person {
+    left: 400px;
+    top: 305px;
+    position: absolute;
+}
+
+.desk {
+    left: 180px;
+    top: 185px;
+    position: absolute;
+    background-color: rgb(114, 82, 14);
+    width: 200px;
+    height: 90px;
+    box-shadow: 1px 3px 3px 1px rgb(5, 5, 5);
+}
+
+.bin {
+    left: 25px;
+    top: 25px;
+    position: absolute;
+}
+
+.computer {
+    left: 262px;
+    top: 188px;
+    position: absolute;
+    z-index: 1;
+}
+
+.radio {
+    left: 173px;
+    top: 213px;
+    position: absolute;
+    z-index: 1;
+}
+ .piggy {
+    left: 343px;
+    top: 230px;
+    position: absolute;
+    z-index: 1;
+}
+
+.window {
+    left: 500px;
+    top: -1px;
+    position: absolute;
+    background: linear-gradient(0.25turn, #3f87a6, #dddf95, #1e5697);
+    width: 300px;
+    height: 20px;
+    border-left: rgb(254, 255, 254) 1px solid;
+    border-right: rgb(254, 255, 254) 1px solid;
+    border-top: rgb(219, 231, 106) 1px solid;
+}
+
+.mat {
+    left: 900px;
+    top: 70px;
+    position: absolute;
+}
+.trainers {
+    left: 870px;
+    height: 70px;
+    top: 15px;
+    position: absolute;
+}
+
+.trophy {
+    left: 940px;
+    top: 300px;
+    position: absolute;
+}
+
+.plant {
+    left: 980px;
+    top: 480px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.shelf {
+    left: 600px;
+    top: 532px;
+    position: absolute;
+    background-color: beige;
+    border:rgb(21, 22, 21) 2px solid;
+    box-shadow: 7px 1px 0px 1px rgb(5, 5, 5);
+    width: 200px;
+    height: 63px;
+}
+
+.table {
+    left: 15px;
+    top: 450px;
+    position: absolute;
+    transform: rotate(20deg);
+    background-color: rgb(80, 57, 9);
+    box-shadow: 1px 3px 2px 7px rgb(5, 5, 5);
+    width: 300px;
+    height: 80px;
+}
+
+.coffee {
+    top: 420px;
+    left: 50px;
+    transform-origin: -100% 50%;
+    transform: rotate(20deg);
+    position: absolute;
+}
+
+.water {
+    top: 400px;
+    left: 100px;
+    transform-origin: -100% 50%;
+    transform: rotate(20deg);
+    position: absolute;
+}
+
+.microwave {
+    top: 420px;
+    left: 200px;
+    transform-origin: -100% 50%;
+    transform: rotate(20deg);
+    position: absolute;
+}
+
+.rug {
+
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    z-index: 1;
+}
+
+.interact:hover {
+    /* opacity: 0.9; */
+    cursor: pointer;
+}
+
+.message {
+    height: 300px;
+    width: 500px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    /* background-color: #22201f; */
+    background-color:#f5f5dc;
+    border: 2px solid rgb(27, 167, 57);
+    color: rgb(60, 107, 38);
+    /* color:rgb(23, 36, 11); */
+    padding: 20px;
+    text-align: center;
+    line-height: 40px;
+    z-index: 3;
+    
+}
+
+.button {
+    border-radius: 5px;
+    position: relative;
+    background-color: #dbe4d1;
+    margin-left: auto;
+    border: 2px solid rgb(27, 167, 57);
+    color: rgb(25, 46, 24);
+    z-index: 4;
+}
+
+.doubleButton {
+    margin-left: 20px;
+    top: -30px;
+}

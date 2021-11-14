@@ -1,0 +1,42 @@
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+
+.myContainer {
+    margin: 20px;
+    background-color:#f5f5dc;
+    width: 1100px;
+    height: 600px;
+    position: absolute;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 30px;
+}
+
+button {
+    background-color: rgb(172, 196, 160);
+    border-radius: 10%;
+    border-color: rgb(199, 223, 175);
+    color:rgb(44, 63, 42);
+}
+
+img {
+    border-radius: 50%;
+}
+/* 
+.message {
+    height: 300px;
+    width: 500px;
+    left: 420px;
+    top: 150px;
+    position: absolute;
+    background-color: #22201f;
+    border: 2px solid rgb(27, 167, 57);
+    color: ivory;
+    padding: 20px;
+    text-align: center;
+    line-height: 40px;
+} */
